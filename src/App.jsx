@@ -5,6 +5,7 @@ import DrinkLeaderboard from './DrinkLeaderboard';
 import AdminLogin from './AdminLogin';
 import AdminPanel from './AdminPanel';
 import HomePage from './HomePage';
+import SuggestionsPage from "./Drink_Suggestions_Page";
 
 function App() {
   const [hash, setHash] = useState(window.location.hash);
@@ -33,6 +34,10 @@ function App() {
     return <DrinkLeaderboard />;
   }
 
+
+  if (hash === '#drink_suggestion') {
+  return <SuggestionsPage />;
+  }
   return <HomePage />;
 }
 
