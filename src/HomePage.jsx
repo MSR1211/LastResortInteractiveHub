@@ -65,7 +65,18 @@ const styles = `
     color: inherit;
     display: block;
     transition: border-color 0.2s, background 0.2s;
+    box-sizing: border-box;
+
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
   }
+  
+  @media (max-width: 600px) {
+  .hp-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
 
   .hp-card:hover {
     border-color: #931D0A;
@@ -164,6 +175,17 @@ snacks, vibes, disco ball etc.)</p>
             </div>
             <span className="hp-card-cta">View rankings →</span>
           </a>
+
+          <a className="hp-card" href="#drink_suggestion">
+            <div className="hp-card-icon">🍺</div>
+            <div className="hp-card-title"><span>Random Drink Suggester</span></div>
+            <div className="hp-card-desc">
+              Can't decide? want to try something new?
+            </div>
+            <span className="hp-card-cta">See whats tasty! →</span>
+          </a>
+          
+                 
 
         </div>
 
