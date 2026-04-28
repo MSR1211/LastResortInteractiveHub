@@ -218,6 +218,14 @@ snacks, vibes, disco ball etc.)</p>
             <span className="hp-card-cta">See whats tasty! →</span>
           </a>
           
+          <a className="hp-card" href="#suggestions">
+           <div className="hp-card-icon">💡</div>
+           <div className="hp-card-title"><span>Suggest your ideas!</span></div>
+           <div className="hp-card-desc">
+           something something
+          </div>
+          <span className="hp-card-cta">Placeholder! →</span>
+         </a>
                  
 
         </div>
