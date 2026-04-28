@@ -222,9 +222,9 @@ snacks, vibes, disco ball etc.)</p>
            <div className="hp-card-icon">💡</div>
            <div className="hp-card-title"><span>Suggest your ideas!</span></div>
            <div className="hp-card-desc">
-           something something
+           Tell us what we're missing. 
           </div>
-          <span className="hp-card-cta">Placeholder! →</span>
+          <span className="hp-card-cta">Start suggesting! →</span>
          </a>
                  
 
